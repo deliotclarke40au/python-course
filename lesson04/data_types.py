@@ -77,13 +77,13 @@ print("Cheesecake".ljust(16, ".") + "$4".rjust(4))
 print("")
 
 # string index values
-print(first[1])
+print(first[0].lower())
 print(first[-1])
 print(first[1:-1])
 print(first[1:])
 
 # Some methods return boolean data
-print(first.startswith("D"))
+print(first.startswith("d")) # returns false, lower is not equal to upper
 print(first.endswith("Z"))
 
 

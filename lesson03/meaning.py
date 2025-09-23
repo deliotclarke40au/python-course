@@ -1,4 +1,4 @@
-meaning = 42
+meaning = 9
 print('')
 
 # if meaning > 10:
