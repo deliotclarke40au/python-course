@@ -37,3 +37,26 @@ elif player == computer:
     print("😲 Tie game!")
 else:
     print("🐍 Python wins!")
+
+def printUserInput():
+    printValue = input("\nYou chose to print your own input, what would you like to print:\n")
+    print(printValue)
+
+def acceptArgs(*args):
+    print(args)
+
+print('')
+print("Let's play a new game, Function caller 101!!")
+
+functionToCall = input("\nEnter PRINT to print your own input or end ARGS to print multiple arguments\n")
+
+if functionToCall == 'PRINT':
+    printUserInput()
+elif functionToCall == 'ARGS':
+    arguments = input('\nWhat arguments would you like to submit?\n')
+    acceptArgs(arguments)
+else:
+    print('\nWhat are you even talking about?')
+
+
+quit()
