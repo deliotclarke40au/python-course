@@ -16,7 +16,7 @@ def another():
         print(color)
         print(name)
 
-    greeting("Dave")
+    greeting("Bobby Digital")
 
 
 another()

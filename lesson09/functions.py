@@ -11,7 +11,7 @@ def sum(num1=0, num2=0):
     return num1 + num2
 
 
-total = sum(7, 2)
+total = sum(10000000, 2)
 print(total)
 
 
@@ -28,4 +28,4 @@ def mult_named_items(**kwargs):
     print(type(kwargs))
 
 
-mult_named_items(first="Dave", last="Gray")
+mult_named_items(huh="Dave", what="Gray")

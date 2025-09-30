@@ -130,7 +130,7 @@ print(nums)
 
 # Merge two sets to create a new set
 one = {1, 2, 3}
-two = {5, 6, 7}
+two = {5, 6, 7, 7, 3}
 
 mynewset = one.union(two)
 print(mynewset)
